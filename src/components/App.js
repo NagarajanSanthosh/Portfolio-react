@@ -1,24 +1,21 @@
 import React from 'react'
-import About from './About'
-import Contact from './Contact'
-import Resume from './Resume'
-import Skills from './Skills'
 
-import ParticlesComponent from './ParticlesComponent'
+import Navbar from './Navbar'
+import About from './About'
+import Skills from './Skills';
+import Projects from './Projects';
+import Contact from './Contact'
 
 const App = () => {
     return (
         <div>
             <div className='alltextblack'>
-
-                <h1>Santhosh N</h1>
+                <Navbar />
                 <About />
-                <Contact />
-                <Resume />
                 <Skills />
-                
+                <Projects />
+                <Contact />
             </div>
-            <ParticlesComponent id="particles" />
 
         </div>
     )
