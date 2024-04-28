@@ -18,12 +18,14 @@ const Navbar = () => {
     };
     return (
         <header>
-            <h1>Santhosh N</h1>
+            <div className='nav-container'>
+                <h1>Santhosh N</h1>
+            </div>
             <nav ref={navRef}>
-                <a href='/#' onClick={() => scrollToSection('')}>Home</a>
                 <a href='/#' onClick={() => scrollToSection('about')}>About</a>
-                <a href='/#' onClick={() => scrollToSection('contact')}>Contact</a>
                 <a href='/#' onClick={() => scrollToSection('skills')}>Skills</a>
+                <a href='/#' onClick={() => scrollToSection('project')}>Project</a>
+                <a href='/#' onClick={() => scrollToSection('contact')}>Contact</a>
                 <button className='nav-btn nav-close-btn' onClick={showNavBar}>
                     <FaTimes />
                 </button>
