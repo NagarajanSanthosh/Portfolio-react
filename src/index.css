@@ -1,3 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.image-style {
+    height: 400px;
+    width: 400px;
+}
+.intro {
+    text-align: center;
+}
+.self-align{
+align-self: center;
+}
