@@ -1,9 +1,39 @@
 import React from 'react'
+import '../project.css'
+import phishingImage from '../image/phishing.jpeg'
+import todoImage from '../image/todo.png'
 
 const Projects = () => {
+    const openProject1 = () => {
+        window.open('https://github.com/NagarajanSanthosh/URL-based-phishing.git', '_blank')
+    }
+    const openProject2 = () => {
+        window.open('https://github.com/NagarajanSanthosh/todo-react.git', '_blank')
+    }
     return (
-        <div id='project'>Projects
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+        <div id='project'>
+            <p>My Recent</p>
+            <h5>Projects</h5>
+            <div>
+                <div>
+
+                    <img className='' src={phishingImage} alt='project1' />
+                    <div>
+                        <h3>Url Based phishing detection</h3>
+                        <button onClick={openProject1}>GitHub</button>
+                    </div>
+                </div>
+                <div>
+
+                    <img src={todoImage} alt='project12' />
+                    <div>
+                        <h3>Todo List</h3>
+                        <button onClick={openProject2}>GitHub</button>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     )
 }

@@ -2,8 +2,41 @@ import React from 'react'
 
 const Skills = () => {
   return (
-    <div id='skills'>Skills
-    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+    <div id='skills'>
+      <p>Explore My Skills</p>
+      <h5>Skills</h5>
+      <div>
+        <div>
+          <div>
+            <h5>Software Developer</h5>
+            <p>I have always like to write a clean and maintable code.</p>
+            <p>I like to code in Java, JavaScript, Node, C, MySQL, Python.</p>
+            <h6>Tools</h6>
+            <ul>
+              <li>Vs Code</li>
+              <li>IntelliJ IDEA</li>
+              <li>Eclipse</li>
+              <li>Google Colab</li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <div>
+            <h5>Front-end Developer</h5>
+            <p>I enjoy  creating some visible transitions and effects on frontend and bringing new concepts to life.
+            </p>
+            <h6>Skills</h6>
+            <p>HTML, CSS, JavaScript, Bootstrap, React Js, Redux, Firebase, Git.</p>
+            <h6>Tools</h6>
+            <ul>
+              <li>Vs Code</li>
+              <li>GitHub</li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

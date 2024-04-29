@@ -11,7 +11,7 @@ const App = () => {
     return (
         <div>
             <div className='alltextblack'>
-                <div className='flex items-end'>
+                <div>
                     <Navbar />
                 </div>
                 <Intro />
@@ -19,6 +19,10 @@ const App = () => {
                 <Skills />
                 <Projects />
                 <Contact />
+
+                <div>
+                <p>Copyrights © reserved 2024</p>
+                </div>
             </div>
 
         </div>

@@ -2,17 +2,35 @@ import React from 'react'
 import image from '../image/profile2.jpg'
 import '../index.css'
 const Intro = () => {
+    const openPDF = () => {
+        window.open('https://drive.google.com/file/d/1SiwTAbO2DALuv1Sj7HuWFfpfXUf625Wo/view?usp=sharing', '_blank');
+    }
     return (
         <div>
-            <div className='row'>
-                <div className='col-lg-8'>
-                    <img className='rounded-circle  image-style rounded mx-auto my-5 d-block' src={image} alt='profile' />
+            <div >
+                <div >
+                    <div >
+                        <div >
+                            <p>Hi, I'm</p>
+
+                        </div>
+                        <div>
+                            <p>Santhosh Nagarajan</p>
+                        </div>
+                        <div>
+                            <p>Frontend Developer</p>
+
+                        </div>
+                        </div>
+                        <button onClick={openPDF}>Resume</button>
                 </div>
-                <div className='col-lg-4  d-flex align-items-center'>
-                    <p className='ms-5 fs-3 align-items-center'>Hi, I am</p><br />
-                    <p className='ms-5 fs-3 align-items-center'>Santhosh Nagarajan</p>
+
+                <div>
+                    <img className='image-style' src={image} alt='profile' />
                 </div>
+
             </div>
+            
         </div>
     )
 }
