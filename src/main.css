@@ -1,7 +1,7 @@
 :root {
     --mainColor: #ffffff;
     --textColor: #000000;
-    --secondaryColor: #db2839;
+    --secondaryColor: rgb(85, 85, 85);
     
 }
 header{

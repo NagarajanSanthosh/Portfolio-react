@@ -3,8 +3,8 @@ import React from 'react'
 const Skills = () => {
   return (
     <div id='skills'>
-      <p>Explore My Skills</p>
-      <h5>Skills</h5>
+      <p  className='text-starter'>Explore My Skills</p>
+      <p className='title'>Skills</p>
       <div>
         <div>
           <div>

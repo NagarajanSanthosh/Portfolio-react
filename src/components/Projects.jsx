@@ -12,8 +12,8 @@ const Projects = () => {
     }
     return (
         <div id='project'>
-            <p>My Recent</p>
-            <h5>Projects</h5>
+            <p  className='text-starter'>My Recent</p>
+            <p className='title'>Projects</p>
             <div>
                 <div>
 

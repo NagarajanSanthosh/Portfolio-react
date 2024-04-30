@@ -5,8 +5,10 @@ const About = () => {
   return (
     <div id='about'>
       <div>
-        <p>Get to Know More</p>
-        About
+        <p className='text-starter'>Get to Know More</p>
+        <p className='title'>
+          About
+        </p>
       </div>
       <div >
 
@@ -17,7 +19,7 @@ const About = () => {
             <p>H.S.C. Higher Secondary</p>
           </div>
           <div>
-          <p>I am a self-motivated, final-year student with bachelor's degree. I am looking forward to contribute to the growing industry with my potential skills.</p>
+            <p>I am a self-motivated, final-year student with bachelor's degree. I am looking forward to contribute to the growing industry with my potential skills.</p>
 
           </div>
         </div>
