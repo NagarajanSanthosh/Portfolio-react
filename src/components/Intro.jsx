@@ -8,7 +8,7 @@ const Intro = () => {
     }
     return (
         <div  >
-            <Container className='profile'>
+            <Container className='profile text-starter bottom-style'>
                 <Row>
 
                     <Col className='image-container'>
@@ -18,8 +18,8 @@ const Intro = () => {
                     </Col>
                     <Col className='text-container'>
                         <div className=''>
-                            <p>Hi, I'm</p>
-                            <h1>Santhosh</h1>
+                            <p className='text-description'>Hi, I'm</p>
+                            <h1 className='fw-bolder'>Santhosh</h1>
                             <p>Frontend Developer</p>
                             <button className='btn btn-dark' onClick={openPDF}>Resume</button>
                         </div>

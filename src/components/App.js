@@ -20,7 +20,7 @@ const App = () => {
                 <Projects />
                 <Contact />
 
-                <div>
+                <div className='copyright'>
                 <p>Copyrights © reserved 2024</p>
                 </div>
             </div>
