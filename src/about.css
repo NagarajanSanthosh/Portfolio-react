@@ -10,16 +10,13 @@
 }
 
 .image-container {
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
+    height: 300px;
+    width: 300px;
+    margin: auto;
     border-radius: 2rem;
 }
 
 .text-description {
     color: rgb(85, 85, 85);
     font-weight: 600;
-}
-.bottom-style {
-    margin-bottom: 2rem;
 }

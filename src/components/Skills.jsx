@@ -1,22 +1,20 @@
-import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
 
 const Skills = () => {
   return (
-    <div id='skills' className='bottom-style'>
-      <p className='text-starter text-description'>Explore My Skills</p>
-      <p className='title'>Skills</p>
-      <div>
+    <div id='skills' className='mt-4 mb-4'>
+      <p className='fs-5 text-center'>Explore My Skills</p>
+      <h2 className='text-center mb-4'>Skills</h2>
 
-      </div>
       <Container>
-        <Row>
-          <Col>
-            <div>
-              <h5>Software Developer</h5>
-              <p>I have always like to write a clean and maintable code.</p>
-              <p>I like to code in Java, JavaScript, Node, C, MySQL, Python.</p>
-              <h6>Tools</h6>
+        <Row className='gx-4'>
+          <Col md={6} className='border p-4'>
+            <div className='d-flex flex-column h-100 justify-content-center align-items-start'>
+              <h4>Software Developer</h4>
+              <p>I have always liked writing clean and maintainable code.</p>
+              <p>I like to code in Java, JavaScript, Node.js, C, MySQL, Python.</p>
+              <h5>Tools</h5>
               <ul>
                 <li>Vs Code</li>
                 <li>IntelliJ IDEA</li>
@@ -25,18 +23,16 @@ const Skills = () => {
               </ul>
             </div>
           </Col>
-          <Col>
-            <div>
-              <h5>Front-end Developer</h5>
-              <p>I enjoy  creating some visible transitions and effects on frontend and bringing new concepts to life.
-              </p>
-              <h6>Skills</h6>
-              <p>HTML, CSS, JavaScript, Bootstrap, React Js, Redux, Firebase, Git.</p>
-              <h6>Tools</h6>
+          <Col md={6} className='border p-4'>
+            <div className='d-flex flex-column h-100 justify-content-center align-items-start'>
+              <h4>Front-end Developer</h4>
+              <p>I enjoy creating visually appealing transitions and effects on the frontend and bringing new concepts to life.</p>
+              <h5>Skills</h5>
+              <p>HTML, CSS, JavaScript, Bootstrap, React.js, Redux, Firebase, Git.</p>
+              <h5>Tools</h5>
               <ul>
                 <li>Vs Code</li>
                 <li>GitHub</li>
-
               </ul>
             </div>
           </Col>
@@ -46,4 +42,4 @@ const Skills = () => {
   )
 }
 
-export default Skills
+export default Skills;

@@ -1,5 +1,4 @@
 import React from 'react'
-import '../project.css'
 import phishingImage from '../image/phishing.jpeg'
 import todoImage from '../image/todo.png'
 import { Container, Row, Col } from 'react-bootstrap'
@@ -11,7 +10,7 @@ const Projects = () => {
         window.open('https://github.com/NagarajanSanthosh/todo-react.git', '_blank')
     }
     return (
-        <div id='project' className='bottom-style'>
+        <div id='project'>
             <p className='text-starter text-description'>My Recent</p>
             <p className='title'>Projects</p>
 

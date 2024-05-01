@@ -2,35 +2,11 @@
     height: 400px;
     width: 400px;
 }
-.profile {
-    display: flex;
-    justify-content: center;
-    gap: 5rem;
-    height: 80vh;
-}
-.image-container {
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
-}
-.text-container {
-    align-self: center;
-    text-align: center;
-    margin: 50px;
-    padding: 100px;
-}
-.text-container p{
-    font-weight: 600;
-}
+
+
+
 .copyright {
     text-align: center;
     margin-top: 5rem;
 }
-.bottom-style {
-    margin-bottom: 2rem;
-}
-@media only screen and (max-width: 900px) {
-    .image-container {
-        justify-content: center;
-    }
-}
+
