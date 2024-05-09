@@ -8,21 +8,25 @@ import Contact from './Contact'
 import Intro from './Intro';
 
 const App = () => {
-    return (
-        <div>
-            <div className='alltextblack'>
-                <div>
-                    <Navbar />
-                </div>
-                <Intro />
-                <About />
-                <Skills />
-                <Projects />
-                <Contact />
 
-                <div>
-                <p>Copyrights © reserved 2024</p>
-                </div>
+    return (
+        <div className='App'>
+
+            <div className='alltextblack'>
+                
+                    <div>
+                        <Navbar />
+                    </div>
+                
+                <main>
+                    <Intro />
+                    <About />
+                    <Skills />
+                    <Projects />
+                </main>
+                <footer>
+                    <Contact />
+                </footer>
             </div>
 
         </div>

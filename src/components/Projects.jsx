@@ -1,44 +1,49 @@
-import React from 'react'
-import phishingImage from '../image/phishing.jpeg'
-import todoImage from '../image/todo.png'
-import { Container, Row, Col } from 'react-bootstrap'
+import React from 'react';
+import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import phishingImage from '../image/phishing.jpeg';
+import todoImage from '../image/todo.png';
+
 const Projects = () => {
     const openProject1 = () => {
-        window.open('https://github.com/NagarajanSanthosh/URL-based-phishing.git', '_blank')
-    }
-    const openProject2 = () => {
-        window.open('https://github.com/NagarajanSanthosh/todo-react.git', '_blank')
-    }
-    return (
-        <div id='project'>
-            <p className='text-starter text-description'>My Recent</p>
-            <p className='title'>Projects</p>
+        window.open('https://github.com/NagarajanSanthosh/URL-based-phishing.git', '_blank');
+    };
 
+    const openProject2 = () => {
+        window.open('https://github.com/NagarajanSanthosh/todo-react.git', '_blank');
+    };
+
+    return (
+        <div id='project' style={{ paddingTop: '20px' }}>
             <Container>
-                <Row>
-                    <Col>
-                        <div className="card" style={{ width: '20rem', height: '20rem' }}>
-                            <img src={phishingImage} className="card-img-top" alt="phishing-image" />
-                            <div className="card-body">
-                                <h5 className="card-title">Url Based phishing detection</h5>
-                                <button className='btn btn-dark rounded-pill rounded' onClick={openProject1}>GitHub</button>
-                            </div>
-                        </div>
+                <Row className='justify-content-center'>
+                    <Col xs={12} className='text-center mb-4'>
+                        <p className='intro-text'>My Recent</p>
+                        <h5 className='text-center mb-4'>Project</h5>
                     </Col>
-                    <Col>
-                        <div className="card" style={{ width: '20rem', height: '20rem' }}>
-                            <img src={todoImage} className="card-img-top" alt="todo-image" />
-                            <div className="card-body">
-                                <h5 className="card-title">Todo List</h5>
-                                <button className='btn btn-dark rounded-pill rounded' onClick={openProject2}>GitHub</button>
-                            </div>
-                        </div>
+                </Row>
+                <Row className="justify-content-center">
+                    <Col lg={6} md={12} className="mb-4 d-flex justify-content-center">
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img variant="top" src={phishingImage} alt="phishing-image" style={{ maxHeight: '200px', objectFit: 'cover' }} />
+                            <Card.Body>
+                                <Card.Title>URL Based Phishing Detection</Card.Title>
+                                <Button variant="dark" onClick={openProject1}>GitHub</Button>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col lg={6} className="mb-4 d-flex justify-content-center">
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img variant="top" src={todoImage} alt="todo-image" style={{ maxHeight: '200px', objectFit: 'cover' }} />
+                            <Card.Body>
+                                <Card.Title>Todo List</Card.Title>
+                                <Button variant="dark" onClick={openProject2}>GitHub</Button>
+                            </Card.Body>
+                        </Card>
                     </Col>
                 </Row>
             </Container>
-
         </div>
-    )
-}
+    );
+};
 
-export default Projects
+export default Projects;
