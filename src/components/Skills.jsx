@@ -10,7 +10,7 @@ const Skills = () => {
           <Row className='justify-content-center'>
             <Col xs={12} className='text-center mb-4'>
               <p className='intro-text'>Explore My</p>
-              <h5 className='text-center mb-4'>Skills</h5>
+              <h5 className='text-center mb-4 intro-heading'>Skills</h5>
             </Col>
           </Row>
           <Row className='align-items-center my-4'>

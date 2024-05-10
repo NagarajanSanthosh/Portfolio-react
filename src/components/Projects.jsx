@@ -18,7 +18,7 @@ const Projects = () => {
                 <Row className='justify-content-center'>
                     <Col xs={12} className='text-center mb-4'>
                         <p className='intro-text'>My Recent</p>
-                        <h5 className='text-center mb-4'>Project</h5>
+                        <h5 className='text-center mb-4 intro-heading'>Project</h5>
                     </Col>
                 </Row>
                 <Row className="justify-content-center">
